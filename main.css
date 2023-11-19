@@ -1,38 +1,17 @@
-html, body {
-  margin: 0 px;
-  padding: 0 px;
-}
-
 html {
-  font-size: 10px;
+  font-size: 1rem;
   background-color: #FFF8DC;
 }
-
 
 body {
   width: 90%;
   margin: 0 auto;
 }
 
-
-
 h1, h2, h3 {
   font-family: Verdana, Helvetica, Arial, sans-serif;
   color: #000000;
 }
-
-.head {
-  font-family: "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
-  color: #8B4513;
-  font-size: 4em;
-  padding: 55px;
-  background-image: url(images/stopi.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom 50px right 500px;
-}
- 
-
-
 
 p, input, li {
   font-family: 'Open Sans Condensed', sans-serif;
@@ -59,9 +38,6 @@ p, li {
   font-size: 1.6rem;
   line-height: 1.5;
 }
-
- 
-
 
 nav, article, aside, footer {
   background-color: white;
@@ -122,9 +98,6 @@ input[type="submit"] {
   color: white;
 }
 
-/* || main layout */
-
-
 main {
   display: flex;
 }
@@ -148,7 +121,12 @@ footer {
   margin-top: 10px;
 }
 
-
-
-
-} 
+.head {
+  font-family: "Brush Script MT", "Brush Script Std", "Lucida Calligraphy", "Lucida Handwriting", "Apple Chancery", cursive;
+  color: #8B4513;
+  font-size: 4rem;
+  padding: 3.4275rem;
+  background-image: url(images/fuesse.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+}
